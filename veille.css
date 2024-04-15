@@ -1,0 +1,361 @@
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+/*---PRÉSENTATION 1---*/
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+
+
+.Presentation1 {
+  padding-top: 0%;
+  padding-bottom: 0%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url('documents/Veille1.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+
+.TitrePresentation1 {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  align-content: center;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 150px;
+  padding-top: 0%;
+}
+
+
+.TitrePresentation1 h1 {
+  line-height: 150%;
+  font-weight: bold;
+  text-align: center;
+  margin: 365px;
+}
+
+
+.TitrePresentation1 hr {
+  border: 2px solid white;
+  background-color: white;
+  width: 300px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  margin: -35%;
+  padding-top: 2%;
+}
+
+
+.centered-section .banner-center-text {
+  max-width: 1000px; 
+  margin: auto;
+}
+
+
+.centered-section .banner-center-text h1 {
+  font-size: 0.5em; 
+}
+
+
+
+
+
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+/*---PRÉSENTATION 2---*/
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+
+
+.Presentation2 {
+  padding-top: 1%;
+  padding-bottom: 5%;
+  background: linear-gradient(to right,
+    #ffff00 -30%, #5B42F3 70%
+  )
+}
+  
+
+.TitrePresentation2 {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  font-size: x-large;
+  padding-top: 2%;
+}
+
+.TitrePresentation2 h1 {
+  line-height: 150%;
+  font-weight: bold;
+  font-size: xx-large;
+  padding: 0%;
+  padding-top: 4%;
+}
+
+
+.TitrePresentation2 hr {
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+  width: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0%;
+  padding-top: 0%;
+}
+
+
+.TitrePresentation2 p {
+  padding-top: 2%;
+  line-height: 170%;
+}
+
+
+
+
+
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*--FRISE CHRONOLOGIQUE--*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+
+
+.timeline {
+  max-width: 960px;
+}
+
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+.frise {
+  position: relative;
+  left: 50%;
+}
+
+.frise::before {
+  content: '';
+  background: #5B42F3;
+  width: 5px;
+  height: 95%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.timeline-item {
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+
+.timeline-point {
+  width: 30px;
+  height: 30px;
+  background: #ffff00;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-top: 25px;
+  margin-left: -15px;
+}
+
+
+.timeline-card {
+  padding: 0 ;
+}
+
+
+.timeline-content {
+  position: relative;
+  width: 41%;
+  padding: 25px 50px;
+  border-radius: 4px;
+  background: #f5f5f5;
+  box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+}
+
+
+.timeline-item:nth-child(even) .timeline-content {
+  float: right;
+}
+
+
+.timeline-item:nth-child(even) .timeline-content .date {
+  right: auto;
+  left: 0;
+}
+
+
+.timeline-item::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.timeline-item:nth-child(1) 
+.timeline-img-header {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('documents/metaverse1.png') center center no-repeat;
+}
+
+.timeline-item:nth-child(2) 
+.timeline-img-header {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('documents/metaverse2.jpg') center center no-repeat;
+}
+
+.timeline-item:nth-child(3) 
+.timeline-img-header {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('documents/metaverse3.jpg') center center no-repeat;
+}
+
+.timeline-item:nth-child(4) 
+.timeline-img-header {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('documents/metaverse4.png') center center no-repeat;
+}
+
+
+.timeline-img-header {
+  height: 200px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+.timeline-img-header h6 {
+  font-weight: bold;
+}
+
+
+.date {
+  background: #ffff00;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 1px;
+  position: absolute;
+  font-weight: bold;
+  top: 0;
+  right: 0;
+}
+
+.timeline-card p {
+  padding: 0 20px;
+}
+
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+
+.btn.btn-purple {
+  background: #5B42F3;
+  border-color: #5B42F3;
+  color: #fff;
+}
+
+
+.btn-marge {
+  margin: 10px;
+}
+
+
+.btn {
+  border: 2px solid transparent;
+  line-height: inherit;
+  border-radius: 0;
+  width: auto;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 6px 20px;
+  cursor: pointer;
+  -webkit-transition: ease all 0.3s;
+  -moz-transition: ease all 0.3s;
+  -o-transition: ease all 0.3s;
+  -ms-transition: ease all 0.3s;
+  transition: ease all 0.3s;
+}
+
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-weight: bold;
+}
+
+
+.timeline-content:active,
+.timeline-content:hover {
+  outline: 0;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.btn:active,
+.btn:hover {
+  outline: 0;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+/*-------POLICE-------*/
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700');
+  
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}

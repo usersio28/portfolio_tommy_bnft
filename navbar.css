@@ -1,0 +1,75 @@
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+/*-------NAVBAR-------*/
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99;
+  -webkit-transition: ease all 0.3s;
+    -moz-transition: ease all 0.3s;
+      -o-transition: ease all 0.3s;
+        transition: ease all 0.3s;
+}
+
+
+.header .navbar-nav > li {
+  padding: 20px 150px;
+}
+
+
+.header .navbar-nav > li > a {
+  padding: 26px 5px;
+  background: transparent;
+  border-color: transparent;
+  font-weight: 300;
+  margin: 0 2px;
+  color: #FFFFff;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: ease all 0.3s;
+    -moz-transition: ease all 0.3s;
+      -o-transition: ease all 0.3s;
+        transition: ease all 0.3s;
+}
+
+
+.header-color {
+  background: #7f00FF;
+}
+
+
+.header-color .navbar-nav > li > a {
+  padding: 22px 18px;
+  margin: 0 px;
+  font-weight: 600;
+  color: #ffff00;
+}
+ 
+
+.header-color .navbar-nav > li > a:hover,
+.header-color .navbar-nav > li > a.current {
+  color: #7f00FF;
+}
+
+
+.header-color .navbar-nav > li > a:hover,
+.header-color .navbar-nav > li > a.current,
+.header-pagepiling .navbar-brand,
+.pp-toggle,
+.portfolio-box-01 .filter a,
+.list-style-2 li:before,
+.list-style-3 li:before,
+.bg-theme {
+  background: #ffff00;
+}
+
+
+
+  

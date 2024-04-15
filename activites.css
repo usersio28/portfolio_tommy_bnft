@@ -1,0 +1,259 @@
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+/*---PRÉSENTATION 1---*/
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+
+
+.Presentation1 {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url('documents/Activite1.avif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+
+.TitrePresentation1 {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-content: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 150px;
+    padding-top: 0%;
+}
+
+
+.TitrePresentation1 h1 {
+    line-height: 150%;
+    font-weight: bold;
+    text-align: center;
+    margin: 365px;
+}
+  
+  
+.TitrePresentation1 hr {
+    border: 2px solid white;
+    background-color: white;
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    margin: -35%;
+    padding-top: 2%;
+}
+
+
+.centered-section .banner-center-text {
+    max-width: 1000px; 
+    margin: auto;
+}
+  
+  
+.centered-section .banner-center-text h1 {
+    font-size: 1.0em; 
+}
+
+
+
+
+
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+/*---PRÉSENTATION 2---*/
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+  
+  
+.Presentation2 {
+    padding-top: 1%;
+    background: linear-gradient(to right,
+      #ffff00 -30%, #5B42F3 70%
+    )
+}
+
+
+.TitrePresentation2 {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    font-size: x-large;
+    padding-top: 0%;
+}
+      
+  
+.TitrePresentation2 h1 {
+    line-height: 150%;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 0%;
+    padding-top: 4%;
+}
+  
+  
+.TitrePresentation2 hr {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0%;
+    padding-top: 0%;
+}
+  
+
+
+
+  
+/*---------------------*/
+/*---------------------*/
+/*---------------------*/
+/*-------TABLEAU-------*/
+/*---------------------*/
+/*---------------------*/
+/*---------------------*/
+
+
+.horizontal {
+    display: flex;
+    
+  }
+  
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+  }
+
+
+
+
+
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+/*-------CARTES-------*/
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+
+
+.Cartes {
+  position: static;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 2%;
+}
+
+
+
+
+
+.carte {
+  background-color: #fff;
+  position: static;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 500px;
+}
+
+
+
+.carte_image {
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto; 
+}
+
+
+.carte_description {
+  text-align: center;
+  padding: 20px 20px;
+}
+
+
+.carte_titre {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+
+.carte_bouton {
+  background-color: #fdb0aa;
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 25px;
+  justify-self: center;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+
+.carte:active,
+.carte:hover {
+  outline: 0;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.carte_bouton:active,
+.carte_bouton:hover {
+  outline: 0;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+/*-------POLICE-------*/
+/*--------------------*/
+/*--------------------*/
+/*--------------------*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700');
+  
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+
+
+
+
+
+
+
+
+
